@@ -30,12 +30,12 @@ conf = ConfigParser()
 conf.read(['setup.cfg'])
 metadata = dict(conf.items('metadata'))
 
-PACKAGENAME = metadata.get('package_name', 'cubeviz')
+PACKAGENAME = metadata.get('package_name', 'deleteme')
 DESCRIPTION = metadata.get('description', 'Data analysis package for cubes.')
 AUTHOR = metadata.get('author', 'JDADF Developers')
 AUTHOR_EMAIL = metadata.get('author_email', '')
 LICENSE = metadata.get('license', 'unknown')
-URL = metadata.get('url', 'https://github.com/spacetelescope/cubeviz')
+URL = metadata.get('url', 'https://github.com/brechmos-stsci/deleteme')
 
 # order of priority for long_description:
 #   (1) set in setup.cfg,
